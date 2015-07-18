@@ -45,3 +45,6 @@ Temporary Items
 # Node directories
 node_modules
 npm-debug.log
+
+# SQLite
+quiz.sqlite
