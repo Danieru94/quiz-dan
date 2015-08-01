@@ -5,11 +5,11 @@ var quizController = require('../controllers/quiz_controller')
 
 // Página de entrada (home page)
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Quiz', errors[]});
+  res.render('index', { title: 'Quiz', errors: []});
 });
 
 router.get('/author', function(req, res) {
-  res.render('author', { title: 'Author Quiz', errors[]});
+  res.render('author', { title: 'Author Quiz', errors: []});
 });
 
 // Autoload de comandos con :quizId
